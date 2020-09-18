@@ -3,8 +3,13 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 200px;
   pointer-events: none;
+}
+
+.brand {
+  font-size: 64px;
+  color: #3c3838;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -1,5 +1,9 @@
 # VRAS
 
+<p align="center">
+    <img align="center" src="public/logo.png" alt="VRAS" width="200">
+</p>
+
 e-commerce project on Reactjs
 
 # Folder Structure
