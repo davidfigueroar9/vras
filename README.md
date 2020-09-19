@@ -32,15 +32,29 @@ my-app/            (root)
         Module2
         ...
 
-    common/
-      components
+    components
+      atoms/
         Component1/
         Component2/
         ...
-
-      hooks
-        useHook1
-        useHook2
+      molecules/
+        Component1/
+        Component2/
         ...
+      organisms/
+        Component1/
+        Component2/
+        ...
+      ...
+    hooks
+      useHook1
+      useHook2
+      ...
     index.js
 ```
+
+This project is type check with prop-types dependency
+
+`prop-types`
+
+website reference: https://www.uplabs.com/posts/clothing-website
