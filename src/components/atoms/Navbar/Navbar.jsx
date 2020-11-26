@@ -37,15 +37,34 @@ function Navbar({ children }) {
           start={
             <>
               <Link>Home</Link>
-              <Link>Documentation</Link>
               <Item isHoverable hasDropdown>
-                <Link>More</Link>
+                <Link>Damas</Link>
                 <Dropdown>
-                  <Link>About</Link>
-                  <Link>Jobs</Link>
-                  <Link>Contact</Link>
+                  <Link>Blusas</Link>
+                  <Link>Vestidos</Link>
+                  <Link>Bragas</Link>
                   <Divider />
-                  <Link>Report an issue</Link>
+                  <Link>Shores</Link>
+                  <Link>Joggers</Link>
+                  <Link>Leggins</Link>
+                  <Link>Maxipant</Link>
+                </Dropdown>
+              </Item>
+              <Item isHoverable hasDropdown>
+                <Link>Caballeros</Link>
+                <Dropdown>
+                  <Link>Shores</Link>
+                  <Link>Joggers</Link>
+                  <Link>Franelas</Link>
+                </Dropdown>
+              </Item>
+              <Item isHoverable hasDropdown>
+                <Link>Niñ@s</Link>
+                <Dropdown>
+                  <Link>Franelas/Camisas</Link>
+                  <Link>Shores</Link>
+                  <Link>Joggers</Link>
+                  <Link>Leggins</Link>
                 </Dropdown>
               </Item>
             </>
