@@ -1,14 +1,14 @@
 import React from 'react';
 import Container from "components/atoms/Container";
 
-function Detail() {
+function Category() {
   return (
     <>
       <Container>
-        Detail
+        Category
       </Container>
     </>
   )
 }
 
-export default Detail;
+export default Category;
