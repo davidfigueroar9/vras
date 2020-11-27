@@ -1,6 +1,7 @@
 import React from "react";
-import { Router, Route, Switch } from "react-router-dom";
-import Container from "components/atoms/Container";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Home from "./Home";
+import Detail from "./Detail";
 import Navbar from "components/atoms/Navbar";
 import "./App.css";
 
@@ -8,11 +9,12 @@ function App() {
   return (
     <>
       <Navbar />
-      <Container>
-        <header className="App-header">
-          <div className="logo brand">VRA'S</div>
-        </header>
-      </Container>
+      <BrowserRouter>
+        <Switch>
+          <Route path="/detail" component={Detail} />
+          <Route path="/" component={Home} />
+        </Switch>
+      </BrowserRouter>
     </>
   );
 }
