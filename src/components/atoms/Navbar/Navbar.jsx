@@ -27,7 +27,7 @@ function Navbar({ children }) {
     <nav className={navbarClass} role="navigation" aria-label="main navigation">
       <Container>
         <Brand>
-          <Link>
+          <Link href="/">
             <Logo />
           </Link>
           <BurgerButton onClick={toggleMenu} isActive={isActive} />
@@ -36,13 +36,13 @@ function Navbar({ children }) {
           isActive={isActive}
           start={
             <>
-              <Link>Home</Link>
+              <Link href="/">Home</Link>
               <Item isHoverable hasDropdown>
-                <Link>Damas</Link>
+                <Link href="category">Damas</Link>
                 <Dropdown>
-                  <Link>Blusas</Link>
-                  <Link>Vestidos</Link>
-                  <Link>Bragas</Link>
+                  <Link href="detail">Blusas</Link>
+                  <Link href="detail">Vestidos</Link>
+                  <Link href="detail">Bragas</Link>
                   <Divider />
                   <Link>Shores</Link>
                   <Link>Joggers</Link>
